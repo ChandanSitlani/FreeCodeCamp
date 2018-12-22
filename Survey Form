@@ -12,17 +12,17 @@ color:red;}
 <center><h1 id="title">Survey Form</h1><br>
 <p id="description">Survey form for freecodecamp</p>
 <form id="survey-form">
-<h2><p id="name-label">Name:</p></h2><input type="text" id="name" placeholder="Name" required><br>
-<h2><p id="email-label">E-mail:</p></h2><input type="email" id="email" placeholder="E-Mail" required><br>
-<h2><p id="number-label">Number:</p></h2><input type="number" id="number" placeholder="Number" min="100" max="300">
+<h2><label id="name-label">Name:</label></h2><input type="text" id="name" placeholder="Name" required><br>
+<h2><label id="email-label">E-mail:</label></h2><input type="email" id="email" placeholder="E-Mail" required><br>
+<h2><label id="number-label">Number:</label></h2><input type="number" id="number" placeholder="Number" min="100" max="300">
 <select id="dropdown">
 <option value="1">a</option>
 <option value="2">b</option>
 <option value="3">c</option>
 </select><br>
 <h2>Gender:<br></h2>
-Male:<input type="radio" name="radio"><br>
-Female:<input type="radio" name="radio">
+Male:<input type="radio" value="male" name="radio"><br>
+Female:<input type="radio" value="female" name="radio">
 <br><br><br>
 <h2>You are a:<br></h2>
 Front End Developer:<input type="checkbox" name="1" value="1"><br>
@@ -30,4 +30,7 @@ Back End Developer:<input type="checkbox" name="2"value="2"><br>
 Buisness Owner:<input type="checkbox" name="3" value="3"><br>
 Employee/Freelancer:<input type="checkbox" name="4" value="4"><br><br><br>
 <textarea id="comments" placeholder="additional comments"></textarea><br>
-<input type="submit" value="Submit">
+<input type="submit" id="submit" value="Submit">
+</form>
+</body>
+</html>
