@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+body{
+background:linear-gradient(45deg,red,blue,yellow);}
+#main{
+width:50%;
+background-color:lightblue;
+margin:auto;
+float:center;
+border-radius:8%;
+}
+h1{
+color:red;
+}
+img{
+border-style:solid;
+border-radius:8%;
+}
+</style>
+</head>
+<body>
+
+<div id="main">
+<center><h1 id="title">A Tribute Page</h1>
+<div id="img-div">
+<img id="image" src="a.jpg"></img><br>
+<p id="img-caption">Bhagat Singh</p></center>
+<h3 id="tribute-info">Bhagat Singh  (About this soundlisten) September/October 1907 – 23 March 1931)<br> 
+was an Indian nationalist considered to be one of the most influential revolutionaries<br> 
+of the Indian independence movement. He is often referred to as Shaheed Bhagat Singh, 
+<br>the word "Shaheed" meaning "martyr" in a number of Indian languages.</h3>
+<br><br>
+</div>
+
+
+
+<br>
+<a href="" target=_blank id="tribute-link"></a>
+</div>
+
+</body>
+</html>
